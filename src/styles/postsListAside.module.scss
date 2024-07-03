@@ -1,0 +1,8 @@
+.position {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 206px;
+  gap: 40px;
+  height: fit-content;
+  max-width: 352px;
+}

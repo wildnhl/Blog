@@ -1,0 +1,35 @@
+.title {
+  display: -webkit-box;
+  max-width: 400px;
+  font-size: 20px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.decorLink {
+  text-decoration: none;
+}
+
+.color {
+  color: #313037;
+}
+
+.imgStyle {
+  cursor: pointer;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.dateStyle {
+  color: #8d8e97;
+  margin-bottom: 8px;
+}
+
+.likeCouter {
+  width: 50px;
+  text-align: center;
+}

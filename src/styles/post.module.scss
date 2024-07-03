@@ -1,0 +1,44 @@
+.title {
+  display: -webkit-box;
+  max-width: 400px;
+  font-size: 20px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.lineLimit {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lineLimitTopTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.dateStyle {
+  color: #8d8e97;
+  margin-bottom: 8px;
+}
+
+.likeCouter {
+  width: 50px;
+  text-align: center;
+}
+
+.mainPostImage {
+  cursor: pointer;
+  width: 256px;
+  max-height: 244px;
+}
+.postImage {
+  cursor: pointer;
+  height: 246px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}

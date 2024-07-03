@@ -1,0 +1,84 @@
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36 54 167);
+  padding: 30px;
+  cursor: pointer;
+
+  & img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.underMenu {
+  width: 100%;
+  max-width: 236px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #e8e8e8;
+  transition: transform 0.3s;
+  height: 90vh;
+}
+
+.underMenuActive {
+  transform: translateY(100%);
+}
+
+.linkHome {
+  color: #313037;
+  text-decoration: none;
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  font-weight: 600;
+  &:hover {
+    color: #2231aa;
+  }
+}
+
+.signInLink {
+  background-color: #e8e8e8;
+  border: 0;
+}
+
+.userName {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.userNameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+  height: 100%;
+}
+
+.langWrapper {
+  display: flex;
+  gap: 1px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.inputLang {
+  display: none;
+}
+
+.labelInputLang {
+  color: #313037;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
