@@ -13,7 +13,7 @@ import { SearchResult } from './components/SearchResult';
 export const router = createBrowserRouter([
   {
     element: <Layout />,
-    basename: "/Blog",
+    basename: "/Blog/",
     children: [
       {
         path: '/',
