@@ -19,43 +19,43 @@ export const router = createBrowserRouter([
         element: <PostsPage />,
         children:[
           {
-        path: '/posts/page/:postsPageNumber',
+        path: '/Blog/posts/page/:postsPageNumber',
         element: <PostsPage />
       },
       {
-        path: '/post/:id',
+        path: '/Blog/post/:id',
         element: <FullPostPage />
       },
       {
-        path: '/sign-in',
+        path: '/Blog/sign-in',
         element: <SignInPage />
       },
       {
-        path: '/sign-up',
+        path: '/Blog/sign-up',
         element: <SignUpPage />
       },
       {
-        path: '/reg-confirm',
+        path: '/Blog/reg-confirm',
         element: <RegistryConfirmPage />
       },
       {
-        path: '/auth/activate/:uid/:token',
+        path: '/Blog/auth/activate/:uid/:token',
         element: <AuthActivatePage />
       },
       {
-        path: '/user-posts',
+        path: '/Blog/user-posts',
         element: <UserPostsPage />
       },
       {
-        path: '/user-posts/:userPostNumber',
+        path: '/Blog/user-posts/:userPostNumber',
         element: <UserPostsPage />
       },
       {
-        path: '/posts/search/:query',
+        path: '/Blog/posts/search/:query',
         element: <SearchResult />
       },
       {
-        path: '/posts/new',
+        path: '/Blog/posts/new',
         element: <NewPost />
       }
         ]
