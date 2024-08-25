@@ -15,8 +15,10 @@ export const router = createBrowserRouter([
     element: <Layout />,
     basename: "/Blog",
     children: [
+      {
         path: '/',
-        element: <PostsPage />,
+        element: <PostsPage />
+      },
       {
         path: '/posts/page/:postsPageNumber',
         element: <PostsPage />
@@ -56,7 +58,7 @@ export const router = createBrowserRouter([
       {
         path: '/posts/new',
         element: <NewPost />
-      },
+      }
     ]
   }
 ]);
