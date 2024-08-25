@@ -13,52 +13,50 @@ import { SearchResult } from './components/SearchResult';
 export const router = createBrowserRouter([
   {
     element: <Layout />,
+    basename: "/Blog",
     children: [
       {
-        path: '/Blog',
+        path: '/',
         element: <PostsPage />,
-        children:[
-          {
-        path: '/Blog/posts/page/:postsPageNumber',
+      {
+        path: '/posts/page/:postsPageNumber',
         element: <PostsPage />
       },
       {
-        path: '/Blog/post/:id',
+        path: '/post/:id',
         element: <FullPostPage />
       },
       {
-        path: '/Blog/sign-in',
+        path: '/sign-in',
         element: <SignInPage />
       },
       {
-        path: '/Blog/sign-up',
+        path: '/sign-up',
         element: <SignUpPage />
       },
       {
-        path: '/Blog/reg-confirm',
+        path: '/reg-confirm',
         element: <RegistryConfirmPage />
       },
       {
-        path: '/Blog/auth/activate/:uid/:token',
+        path: '/auth/activate/:uid/:token',
         element: <AuthActivatePage />
       },
       {
-        path: '/Blog/user-posts',
+        path: '/user-posts',
         element: <UserPostsPage />
       },
       {
-        path: '/Blog/user-posts/:userPostNumber',
+        path: '/user-posts/:userPostNumber',
         element: <UserPostsPage />
       },
       {
-        path: '/Blog/posts/search/:query',
+        path: '/posts/search/:query',
         element: <SearchResult />
       },
       {
-        path: '/Blog/posts/new',
+        path: '/posts/new',
         element: <NewPost />
-      }
-        ]
       },
     ]
   }
